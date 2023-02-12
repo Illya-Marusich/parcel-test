@@ -1,1 +1,31 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body {
+     font-family: Roboto, sans-serif;
+     color: var(--color-black);
+ }
+
+ .list {
+     list-style: none;
+ }
+
+ .link {
+     text-decoration: none;
+ }
+
+ .container {
+     width: 1280px;
+     padding: 0px 16px;
+     margin: 0 auto;
+ }
+
+ $color-button-green: #bbf330;
+ $color-dark-green: #7eb101;
+ $color-yellow-main: #ffe550;
+ $color-black: #2c2c2c;
+ $color-white: #fefefe;
+ $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
